@@ -1,6 +1,6 @@
 Berikut adalah file **README.md** lengkap untuk proyek **TugasKu**. Simpan di root folder proyek (`todolist/`).
 
-````markdown
+```markdown
 # 📝 TugasKu - Task Management App
 
 [![React](https://img.shields.io/badge/React-19.0-blue?logo=react)](https://react.dev)
@@ -16,13 +16,11 @@ Berikut adalah file **README.md** lengkap untuk proyek **TugasKu**. Simpan di ro
 ## ✨ Fitur Utama
 
 ### 🔐 Autentikasi
-
 - Register & Login dengan enkripsi password (bcrypt)
 - Token‑based authentication untuk request API
 - Logout dengan modal konfirmasi kustom
 
 ### 📋 Manajemen Tugas
-
 - **CRUD Lengkap**: Buat, baca, ubah, hapus tugas
 - **Prioritas**: Low, Medium, High
 - **Kategori**: Kustom dengan 6 ikon & 8 pilihan warna
@@ -30,12 +28,10 @@ Berikut adalah file **README.md** lengkap untuk proyek **TugasKu**. Simpan di ro
 - **Status**: Tandai selesai (done) atau kembalikan ke aktif
 
 ### 🔍 Pencarian & Filter
-
 - **Search real‑time** di halaman Active Tasks, Done Tasks, dan Categories
 - **Filter ganda**: Filter by Priority + Filter by Category
 
 ### 📊 Dashboard
-
 - **Diagram batang** penyelesaian tugas 7 hari terakhir
 - **Efisiensi** keseluruhan (persentase completed)
 - **Open Issues** yang masih aktif
@@ -43,19 +39,16 @@ Berikut adalah file **README.md** lengkap untuk proyek **TugasKu**. Simpan di ro
 - **Recent Folders** – kategori terbaru dengan jumlah tugas
 
 ### 🎨 Kustomisasi Tampilan
-
 - **Mode Gelap & Terang** (dark/light) – disimpan di localStorage
 - Sidebar responsif dengan hamburger menu di layar kecil
 - Desain terinspirasi Material Design dengan palet warna konsisten
 
 ### 🔔 Notifikasi
-
 - Dropdown notifikasi dengan badge jumlah
 - Menampilkan tugas yang **overdue**, **due today**, dan **due tomorrow**
 - Klik langsung menuju halaman Active Tasks
 
 ### ⚙️ Pengaturan Profil
-
 - Ubah nama tampilan
 - Ubah password (validasi current password)
 - Avatar otomatis berdasarkan inisial nama (via UI Avatars)
@@ -64,19 +57,18 @@ Berikut adalah file **README.md** lengkap untuk proyek **TugasKu**. Simpan di ro
 
 ## 🛠️ Teknologi
 
-| Bagian       | Teknologi                             |
-| ------------ | ------------------------------------- |
-| **Frontend** | React 19, Vite 5, Tailwind CSS 3      |
-| **Backend**  | PHP 8 (native), MySQL 8               |
-| **Library**  | Lucide React (ikon), React Router DOM |
-| **Server**   | XAMPP (Apache + MySQL)                |
+| Bagian | Teknologi |
+|--------|-----------|
+| **Frontend** | React 19, Vite 5, Tailwind CSS 3 |
+| **Backend** | PHP 8 (native), MySQL 8 |
+| **Library** | Lucide React (ikon), React Router DOM |
+| **Server** | XAMPP (Apache + MySQL) |
 
 ---
 
 ## 📦 Cara Install
 
 ### Prasyarat
-
 - [XAMPP](https://www.apachefriends.org) (atau Apache + MySQL terpisah)
 - [Node.js](https://nodejs.org) & npm
 
@@ -87,7 +79,6 @@ Berikut adalah file **README.md** lengkap untuk proyek **TugasKu**. Simpan di ro
    git clone https://github.com/airlanggapangestu/TugasKu.git
    cd TugasKu
    ```
-````
 
 2. **Setup database**
    - Nyalakan Apache & MySQL di XAMPP.
@@ -107,18 +98,15 @@ Berikut adalah file **README.md** lengkap untuk proyek **TugasKu**. Simpan di ro
      ```
 
 4. **Install dependencies frontend**
-
    ```bash
    cd todo-frontend
    npm install
    ```
 
 5. **Jalankan frontend**
-
    ```bash
    npm run dev
    ```
-
    Buka `http://localhost:5173` di browser.
 
 6. **Backend API** sudah tersedia di `http://localhost/todolist/todo-backend/api/...` (pastikan folder `todolist` ada di dalam `htdocs` XAMPP).
@@ -198,7 +186,7 @@ TugasKu/
 
 ## 📸 Screenshots (Opsional)
 
-> _Tambahkan screenshot aplikasi di sini setelah deploy atau saat berjalan di localhost._
+> *Tambahkan screenshot aplikasi di sini setelah deploy atau saat berjalan di localhost.*
 
 ---
 
@@ -216,8 +204,6 @@ Proyek ini masih dalam pengembangan. Saran dan kontribusi selalu diterima!
 ---
 
 **© 2025 TugasKu. Dibangun dengan ❤️ oleh Airlangga Pangestu.**
-
 ```
 
 Simpan file di atas sebagai `README.md` di root folder proyek (`todolist/`), lalu push ke GitHub. README ini akan langsung muncul di halaman utama repository kamu.
-```
