@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/* ========== DARK MODE (DEFAULT) ========== */
+:root {
+  --bg: #111318;
+  --bg-surface: #1d2024;
+  --bg-surface-high: #282a2f;
+  --bg-surface-low: #191c20;
+  --bg-input: #1e1f22;
+  --bg-hover: #33353a;
+  --bg-sidebar: #1d2024;
+  --text: #e2e2e8;
+  --text-secondary: #c6c5d7;
+  --text-muted: #8f8fa0;
+  --primary: #5865f2;
+  --primary-hover: #3f4cda;
+  --primary-text: #bec2ff;
+  --border: #454655;
+  --border-light: #454655;
+  --danger: #ffb4ab;
+  --danger-bg: #93000a;
+  --success: #73dc8d;
+  --warning: #ffb959;
+  --card-border: #454655;
+  --modal-bg: #1e1f22;
+}
+
+/* ========== LIGHT MODE ========== */
+.light {
+  --bg: #f5f5f5;
+  --bg-surface: #ffffff;
+  --bg-surface-high: #f0f0f0;
+  --bg-surface-low: #fafafa;
+  --bg-input: #ffffff;
+  --bg-hover: #e8e8e8;
+  --bg-sidebar: #ffffff;
+  --text: #1a1a1a;
+  --text-secondary: #666666;
+  --text-muted: #999999;
+  --primary: #5865f2;
+  --primary-hover: #4752c4;
+  --primary-text: #3f4cda;
+  --border: #dddddd;
+  --border-light: #eeeeee;
+  --danger: #dc3545;
+  --danger-bg: #ffe5e5;
+  --success: #28a745;
+  --warning: #ffc107;
+  --card-border: #e0e0e0;
+  --modal-bg: #ffffff;
+}
+
+/* ========== CUSTOM SHADOW ========== */
+.custom-shadow-modal {
+  box-shadow:
+    0 12px 32px -4px rgba(0, 0, 0, 0.6),
+    0 4px 16px -4px rgba(0, 0, 0, 0.4);
+}
+
+.light .custom-shadow-modal {
+  box-shadow:
+    0 12px 32px -4px rgba(0, 0, 0, 0.1),
+    0 4px 16px -4px rgba(0, 0, 0, 0.06);
+}
+
+/* ========== CUSTOM SCROLLBAR ========== */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #454655;
+  border-radius: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #5865f2;
+}

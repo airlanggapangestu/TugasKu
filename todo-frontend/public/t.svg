@@ -1,0 +1,67 @@
+
+
+Generated image: TugasKu: modern task management logo
+
+Edit
+
+
+Edited image
+KIRIMIN SATU DESIGN SAJA, YANG ADA TULISAN TUGASKU NYA!!!!!!!!!!!!!!!!
+
+Generated image: TugasKu checklist app icon
+
+
+Edit
+
+
+buatkan formatnya svg
+
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="90" fill="#F8F9FC"/>
+
+  <!-- Clipboard -->
+  <rect x="120" y="90" width="210" height="260" rx="35" fill="#133E87"/>
+  
+  <!-- Paper -->
+  <rect x="140" y="110" width="170" height="220" rx="28" fill="white"/>
+
+  <!-- Clip -->
+  <rect x="190" y="60" width="90" height="45" rx="18" fill="#FFC72C"/>
+  <circle cx="235" cy="82" r="10" fill="#F8F9FC"/>
+
+  <!-- Checklist -->
+  <circle cx="175" cy="165" r="16" fill="#2F80FF"/>
+  <path d="M168 165L174 171L184 159" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="205" y="156" width="70" height="10" rx="5" fill="#133E87"/>
+
+  <circle cx="175" cy="220" r="16" fill="#2F80FF"/>
+  <path d="M168 220L174 226L184 214" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="205" y="211" width="70" height="10" rx="5" fill="#133E87"/>
+
+  <circle cx="175" cy="275" r="14" stroke="#133E87" stroke-width="5"/>
+  <rect x="205" y="270" width="55" height="10" rx="5" fill="#133E87"/>
+
+  <!-- Pencil -->
+  <g transform="rotate(18 360 290)">
+    <rect x="320" y="170" width="50" height="145" rx="20" fill="#FFC72C"/>
+    <rect x="320" y="170" width="50" height="28" rx="14" fill="#133E87"/>
+    
+    <!-- Pencil tip -->
+    <path d="M320 315H370L345 355L320 315Z" fill="#FFF4E0"/>
+    <path d="M338 340L345 355L352 340H338Z" fill="#133E87"/>
+  </g>
+
+  <!-- Brand Name -->
+  <text x="256" y="445"
+        text-anchor="middle"
+        font-family="Poppins, Arial, sans-serif"
+        font-size="54"
+        font-weight="700"
+        fill="#133E87">
+    Tugas<tspan fill="#2F80FF">Ku</tspan>
+  </text>
+</svg>
+
