@@ -1,6 +1,6 @@
 # 📝 TugasKu – Task Management App
 
-Aplikasi **to‑do list full‑stack** untuk manajemen tugas pribadi maupun tim.  
+Website **to‑do list full‑stack** untuk manajemen tugas pribadi maupun tim.  
 Dibangun dengan **React + Vite + Tailwind CSS** (frontend) dan **PHP + MySQL** (backend), berjalan di lingkungan XAMPP.
 
 ---
